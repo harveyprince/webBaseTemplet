@@ -38,6 +38,17 @@
 .input-box-pack.alarm-pack{
 	height: auto;
 }
+.form-box-input.name-input{
+	width: 40%;
+	display: inline;
+}
+.form-box-input.name-input{
+	width: 47.5%;
+	display: inline;
+}
+.form-box-input.name-input+.name-input{
+	float: right;
+}
 .alarm-box{
 	border-radius: 5px;
 	background: rgb(27,27,27);
@@ -51,4 +62,23 @@
 }
 .alarm-box i{
 	padding-right: 7px;
+}
+.group-switch-nav{
+	color: #ddd;
+	font-size: 15px;
+	padding-bottom: 10px;
+}
+.group-switch-nav .switch-button{
+	float: right;
+}
+.group-switch-nav .nav-tip{
+	padding-left: 2px;
+	padding-right: 2px;
+}
+.switch-button{
+	padding-right: 5px;
+	cursor: pointer;
+}
+.switch-button:hover{
+	padding-right: 0px;
 }
