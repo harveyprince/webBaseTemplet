@@ -5,7 +5,7 @@ doc
 <p>
 To init the alarm box:<br/>
 var box = $(".alarm-box").alarmInit();<br/>
-function alarm can accpet two kinds of parameter:string,array
+function alarm can accpet two kinds of parameter:string,array<br/>
 box.alarm("test1");<br/>
 var testlist = new Array();<br/>
 testlist.push("test2");<br/>
