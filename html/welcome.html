@@ -22,20 +22,22 @@
 								<i class="fa fa-arrow-circle-right"></i>
 							</span>
 						</div>
+						<form action="" method="post" autocomplete="off">
 						<div class="input-box-pack block-input-box">
 						<span class="fa fa-user"></span>
-						<input class="form-box-input" placeholder="email/nicname" type="text" style="ime-mode:disabled;">
+						<input class="form-box-input" placeholder="email/nicname" type="text" style="ime-mode:disabled;" name="account" required>
 						</div>
 						<div class="input-box-pack block-input-box">
 						<span class="fa fa-key"></span>
-						<input class="form-box-input" placeholder="password" type="password">
+						<input class="form-box-input" placeholder="password" type="password" name="password" required>
 						</div>
 						<div class="input-box-pack block-input-box alarm-pack">
 						<div class="alarm-box"><ul></ul></div>
 						</div>
 						<div class="input-box-pack block-input-box">
-						<button class="box-button">login</button>
+						<button class="box-button" type="submit">login</button>
 						</div>
+						</form>
 					</div>
 					<div class="signup-group input-group">
 						<div class="group-switch-nav">
@@ -45,24 +47,26 @@
 								<i class="fa fa-arrow-circle-right"></i>
 							</span>
 						</div>
+						<form action="" method="post" autocomplete="off">
 						<div class="input-box-pack block-input-box name-input">
-						<input class="form-box-input name-input" placeholder="surname" type="text">
-						<input class="form-box-input name-input" placeholder="psname" type="text">
+						<input class="form-box-input name-input" placeholder="surname" type="text" name="surname">
+						<input class="form-box-input name-input" placeholder="psname" type="text" name="psname" required>
 						</div>
 						<div class="input-box-pack block-input-box">
 						<span class="fa fa-user"></span>
-						<input class="form-box-input" placeholder="email/nicname" type="text" style="ime-mode:disabled;">
+						<input class="form-box-input" placeholder="email" type="email" style="ime-mode:disabled;" name="email" required>
 						</div>
 						<div class="input-box-pack block-input-box">
 						<span class="fa fa-key"></span>
-						<input class="form-box-input" placeholder="password" type="password">
+						<input class="form-box-input" placeholder="password" type="password" name="password" required>
 						</div>
 						<div class="input-box-pack block-input-box alarm-pack">
 						<div class="alarm-box"><ul></ul></div>
 						</div>
 						<div class="input-box-pack block-input-box">
-						<button class="box-button">signup</button>
+						<button class="box-button" type="submit">signup</button>
 						</div>
+						</form>
 					</div>
 				</div>
 			</div>
