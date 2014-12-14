@@ -2,10 +2,14 @@
 	$.fn.alarmInit = function(){
 		var $box = $(this);
 
-		$box.destroy = function(){
+		($box.destroy = function(){
 			$box.fadeOut("slow");
 			$box.find('li').remove();
-		}
+		})();
+
+		$box.find('ul').remove();
+		$box.append('<ul></ul>');
+
 		$box.alarm = function(a) {
 			switch(typeof(a)){
 				case 'string':
