@@ -158,6 +158,10 @@
 				inputcontent.push('<span class="fa fa-key"></span>');
 				inputcontent.push('<input class="form-box-input" placeholder="password" type="password" name="password" required="required">');
 				break;
+				case 'password_repeat':
+				inputcontent.push('<span class="fa fa-key"></span>');
+				inputcontent.push('<input class="form-box-input" placeholder="password repeat" type="password" name="password_repeat" required="required">');
+				break;
 				default:
 				break;
 			}
